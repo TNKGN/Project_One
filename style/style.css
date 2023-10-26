@@ -1,0 +1,24 @@
+body {
+    font-family: "Montserrat";
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+   display: flex;
+}
+
+.font-logo {
+   display: flex;
+   align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
