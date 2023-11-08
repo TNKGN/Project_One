@@ -17,20 +17,22 @@
     <main class="content">
         <div class="content__wrapper">
             <header class="content__header">
-                <div class="row">
-                    <h1>Title</h1>
+                <div class="row content__heading">
+                    <h1>Project Manager</h1>
                     <div class="user_avatar">
                         <img width="30" height="30" src="./img/Yoda.png" alt="User avatar">
                     </div>
                 </div>
-                <time datetime="2023-11-04T08:00+00:00" class="date"></time>
+                <time datetime="2023-11-04T08:00+00:00" class="date">Thursday, December, 2023</time>
                 <p class="description">Description</p>
             </header>
             <section class="info">
                 <div class="row">
                     <div class="col__left">Due date</div>
                     <div class="col__right">
-                        <time datetime="2024-03-04"T08:00+00:00></time>
+                        <time datetime="2024-03-04"T08:00+00:00>
+                            Monday, May, 1st
+                        </time>
                     </div>
                 </div>
             </section>
@@ -38,7 +40,7 @@
                 <div class="row">
                     <div class="col__left">Assigner</div>
                     <div class="col__right">
-                        <p class="assign info"></p>
+                        <p class="assign info">Master Yoda</p>
                         <i class="asign_photo">
                             <img width="30" height="30" src="./img/Yoda.png" alt="Assigner">
                         </i>
@@ -47,15 +49,15 @@
                 <div class="row">
                     <div class="col__left">Assignee</div>
                     <div class="col__right">
-                        <p class="assign_info">Name</p>
+                        <p class="assign_info">Dart Vaider</p>
                         <i class="assign_photo">
                             <img width="20" height="20" src="./img/vader.png" alt="Assignee">
                         </i>
                     </div>
                 </div>
             </section>
-            <section class="row">
-                <button class="btn">In progress</button>
+            <section class="row row--unadaptive action">
+                <button class="btn status_button status_btn--in--progress active">In progress</button>
                 <button class="btn">Open</button>
                 <button class="btn">Closed</button>
             </section>
