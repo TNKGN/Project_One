@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
     <aside class="checkbox">
-        <form action="" class="form">
+        <form action="" class="form page-header__search">
             <input type="checkbox">
             <label title="checkbox"></label>
         </form>
@@ -23,15 +24,15 @@
                         <img width="30" height="30" src="./img/Yoda.png" alt="User avatar">
                     </div>
                 </div>
-                <time datetime="2023-11-04T08:00+00:00" class="date">Thursday, December, 2023</time>
+                <time datetime="2023-11-04T08:00+00:00" class="date">Thursday, December 24, 2023</time>
                 <p class="description">Description</p>
             </header>
             <section class="info">
                 <div class="row">
                     <div class="col__left">Due date</div>
                     <div class="col__right">
-                        <time datetime="2024-03-04"T08:00+00:00>
-                            Monday, May, 1st
+                        <time datetime="2024-03-04T08:00+00:00">
+                            Monday, May 1, 2024
                         </time>
                     </div>
                 </div>
@@ -40,9 +41,9 @@
                 <div class="row">
                     <div class="col__left">Assigner</div>
                     <div class="col__right">
-                        <p class="assign info">Master Yoda</p>
-                        <i class="asign_photo">
-                            <img width="30" height="30" src="./img/Yoda.png" alt="Assigner">
+                        <p class="assign_info">Master Yoda</p>
+                        <i class="asign__photo">
+                            <img width="20" height="20" src="./img/Yoda.png" alt="Assigner">
                         </i>
                     </div>
                 </div>
@@ -50,23 +51,23 @@
                     <div class="col__left">Assignee</div>
                     <div class="col__right">
                         <p class="assign_info">Dart Vaider</p>
-                        <i class="assign_photo">
+                        <i class="assign__photo">
                             <img width="20" height="20" src="./img/vader.png" alt="Assignee">
                         </i>
                     </div>
                 </div>
             </section>
             <section class="row row--unadaptive action">
-                <button class="btn status_button status_btn--in--progress active">In progress</button>
-                <button class="btn">Open</button>
-                <button class="btn">Closed</button>
+                <button class="btn status_btn status_btn--in--progress active"><i class="fa-solid fa-list-check"></i>In progress</button>
+                <button class="btn status_btn status_btn--open active"><i class="fa-solid fa-circle-exclamation"></i>Open</button>
+                <button class="btn status_btn status_btn--closed active"><i class="fa-regular fa-circle-check"></i>Closed</button>
             </section>
         </div>
-        <footer class="content__footer">
-            <button class="btn">Left button</button>
-            <button class="btn">Right button</button>
+        <footer class="content__footer row row--unadaptive">
+            <button class="btn footer__btn">Left button</button>
+            <button class="btn footer__btn">Right button</button>
         </footer>
     </main>
-    </div>
+</div>
 </body>
 </html>

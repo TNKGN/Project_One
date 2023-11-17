@@ -8,40 +8,58 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="flex-container">
-                <li class="box">Для мужчин</li>
-                <li class="box">Для женщин</li>
-                <li class="box">Для детей</li>
-                <li class="box font-logo"><img src="./images/logo.png" alt="logo"><span>The loop</span></li>
-                <li class="box">Оплата</li>
-                <li class="box">Доставка</li>
-                <li class="box basket"><img src="./images/basket.png" alt="basket"></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div>
-                <h1> Бесплатная доставка от 3000₽</h1>
-                <h3>Сделайте заказ и получите подарок!</h3>
-            </div> 
-            <div>
-                <div>
-                    <h2>Мужская коллекция</h2>
-                    <h3>Обувь, пуловеры, костюмы</h3>
-                    <button> <img src="./images/pointer.png" alt="button"></button>
-                    <div> <img src="./images/man.png" alt="man"></div>
-                </div>
-                <div>
-                    <h2>Женская коллекция</h2>
-                    <h3>Обувь, пуловеры, костюмы</h3>
-                    <button> <img src="./images/pointer.png" alt="button"></button>
-                    <div> <img src="./images/woman.png" alt="woman"></div>
-                </div>
+<header>
+    <div class="nav-wrapper">
+        <div class="block-wrapper">
+    <nav class="nav-style">
+        <ul class="menu-flex">
+            <li>Для мужчин</li>
+            <li>Для женщин</li>
+            <li>Для детей</li>
+            <li class="logo-wrapper"><img src="./images/logo.png" alt="logo"> <span class="logo-title">The loop</span></li>
+            <li>Оплата</li>
+            <li>Доставка</li>
+            <li><img src="./images/basket.png" alt="basket" class="basket"></li>
+        </ul>
+    </nav>
+        <section class="slider-wrapper">
+            <div class="text__content">
+                <h3>Зимняя распродажа</h3>
+                <h1>Скидки до 90%</h1>
+                <button class="view__model">Смотреть модели</button>
             </div>
+            <div class="image__content">
+                <img src="./images/running_shoes.png" alt="">
+            </div>    
         </section>
-    </main>
+        </div>
+    </div>
+        <div class="delivery">
+            <h1>Бесплатная доставка <span class="thin-weight">от 3000 &#8381;</span></h1>
+            <h3>Сделайте заказ и получите подарок!</h3>
+        </div> 
+    <div class="collection-block-wrapper">
+        <div class="block-wrapper">
+    <section class="collection-wrapper">
+        <div class="collection__text__content">
+            <h2><span class="medium-text">Мужская</span> <span class="light-text">коллекция</span></h2>
+            <h4>Обувь, пуловеры, костюмы</h4>
+            <button class="view__model"><img src="./images/Arrow.png" alt=""></button>
+        </div>
+        <div class="collection__image__content">
+            <img src="./images/man.png" alt="">
+        </div>
+        <div class="collection__text__content">
+            <h2><span class="medium-text">Женская</span> <span class="light-text"> коллекция</span></h2>
+            <h4>Обувь, пуловеры, костюмы</h4>
+            <button class="view__model"><img src="./images/Arrow.png"></button>
+        </div>
+        <div class="collection__image__content">
+            <img src="./images/woman.png" alt="">
+        </div>
+    </section>
+        </div>
+    </div>
+</header>
 </body>
 </html>

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.block-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    width: 500px;
+    padding-bottom: 2px;
+    border-left: 5px solid skyblue;
+}
+
+.block-wrapper p {
+    background-color: black;
+    color: orange;
+    border: 3px solid red;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
