@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style10.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>To create a chart we need to instantiate the <code>Chart</code> class. To do this, we need to pass in the 2nd context of where we want to draw the chart. Here's the example.</p>
+        <code>&#8249;canvas id='myChart' width='400' height='400'&#8250;&#8249;/canvas&#8250;</code></br>
+        <code><i>// Get the context of the canvas element we want to select</i></code></br>
+        <code><b>var</b> ctx = document.getElementById('myChart').getContext('2d');</code></br>
+        <code><b>var</b> MyNewChart = <b>new</b> Chart(ctx).PolarArea(data);</code>
+        <p>We can also get the cotext of our canvas with jQuery. To do this, we need to get the DOM out of the jQuery collection and call the <code>getContext('2d)</code> method on that.</p>
+        <code><i>// Get context with jQuery - using jQuery's .get() method.</i></code></br>
+        <code><b>var</b> ctx = $ ('`#myChart').get(0).getContext ('2d');</code></br>
+        <code><i>// This will get the first returned node in the jQuery collection</i></code></br>
+        <code><b>var</b> MyNewChart = <b>new</b> Chart(ctx);</code>
+    </div>
+</body>
+</html>
