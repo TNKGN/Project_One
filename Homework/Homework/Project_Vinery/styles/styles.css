@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-image: url("/images/background.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.tel {
+    color: white;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list {
+    display: flex;
+}
+
+.item {
+    max-width: 285px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 13px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.item:nth-last-child(1){
+    border-right: none;
+}
+
+.btn-wrap {
+    position: absolute;
+    bottom: 150px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #99862A;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+}
+
+.btn-wrap button,
+.btn-wrap button:active,
+.btn-wrap button:focus {
+    border: none;
+}
+
+main {
+    background-color: var(--black, #282828);
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width: 733px;
+    height: 192px;
+}
+
+.section-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 15px;
+}
+
+.image {
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 160px;
+    margin-bottom: 40px;
+}
+
+.border {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #C4C4C4;
+}
+
+
+
+
+
+
+
+
+
