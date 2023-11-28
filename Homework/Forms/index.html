@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="#" method="post" name="dataSet">
+        <h1>Шаблон формы</h1>
+        <div class="item">
+        <fieldset>
+            <legend>Персональные данные</legend>
+            <ul>
+                <li>
+                    <label for="name">Имя:*</label>
+                    <input type="text" name="name" placeholder="John Doe" id="name">
+                </li>
+                <li>
+                    <label for="age">Возраст:</label>
+                    <input type="number" name="age" placeholder="18" id="age" min="0" max="125">
+                </li>
+            </ul>
+        </fieldset>
+        </div>
+        <div class="item">
+        <fieldset>
+            <legend>Контактные данные</legend>
+            <ul>
+                <li>
+                    <label for="email">E-mail:*</label>
+                    <input type="email" name="email" placeholder="doe@gmail.com" id="email" required>
+                </li>
+                <li>
+                    <label for="phone">Телефон:*</label>
+                    <input type="tel" name="phone" placeholder="+37360114573" id="phone" maxlenght="9" required>
+                </li>
+            </ul>
+        </fieldset>
+        </div>
+        <div class="item">
+            <label for="message">Хобби</label>
+            <textarea name="message" id="message" placeholder="Расскажите о вашем хобби"></textarea>
+        </div>
+        <div class="item">
+        <fieldset>
+            <legend>Обучение</legend>
+            <ul>
+                <li>
+                    <input type="checkbox" name="course" id="course" checked>
+                    <label for="course">Прохожу курс</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="books" id="books">
+                    <label for="books">Читаю книги</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="video" id="video">
+                    <label for="video">Смотрю видео</label>
+                </li>
+                <li>
+                    <label for="education">Образование</label>
+                    <select name="" id="education">
+                        <option value="secondary">Среднее образование</option>
+                        <option value="secondary vocational">Среднее специальное</option>
+                        <option value="higher">Высшее</option>
+                        <option value="incomplete higher">Неоконченное высшее</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+        </div>
+        <div class="item">
+        <fieldset>
+            <legend>Выбор профессии</legend>
+            <ul>
+                <li>
+                    <label for="front">Фронтенд разработка</label>
+                    <input type="radio" id="front" checked>
+                </li>
+                <li>
+                    <label for="back">Бэкенд разработка</label>
+                    <input type="radio" id="back">
+                </li>
+            </ul>
+        </fieldset>
+        </div>
+        <div>
+            <button type="submit">Отправить</button>
+            <p>* - обязательные поля</p>
+        </div>
+    </form>
+    </div>
+<script src="./skript.js"></script>
+</body>
+</html>

@@ -9,7 +9,7 @@ ul {
 }
 
 header {
-    background-image: url("/images/background.png");
+    background-image: url("../images/background.png");
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
