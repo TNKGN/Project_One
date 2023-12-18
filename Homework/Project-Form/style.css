@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 21px;
+}
+
+.left-side {
+    min-width: calc(100% / 2 - 42px);
+    height: calc(100vh - 42px);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    padding: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-content {
+    margin: 0 auto;
+    max-width: 429px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 22px;
+}
+
+.text {
+    font-size: 16px;
+    padding-bottom: 42px;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #0C21C1;
+}
+
+label {
+    font-size: 16px;
+    color: #999;
+    font-weight: 400;
+    position: relative;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input::placeholder {
+    color: #000842;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.form-styling {
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 100%;
+    padding: 9px 9px 9px 27px;
+}
+
+.email {
+    padding-bottom: 49px;
+}
+
+.password {
+    padding-bottom: 60px;
+}
+
+.username {
+    padding-bottom: 50px;
+}
+
+.btn {
+    height: 53px;
+    width: 100%;
+    border: 1px solid #0C21C1;
+    background-color: #0C21C1;
+    border-radius: 32px;
+    color: #FFF;
+    font-size: 17px;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.btn-wrapper {
+    padding-bottom: 39px;
+}
+
+.continue {
+    margin-left: 150px;
+    color: #B5B5B5;
+    font-size: 16px;
+    padding-bottom: 31px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: calc(100% / 2 - 42px);
+    background-color: #000842;
+    border-radius: 15px;
+    padding: 0 88px;
+    color: white;
+    height: calc(100vh - 42px);
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.image-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.text-wrapper {
+    width: 100%;
+}
+
+.image-wrapper {
+    margin-bottom: 90px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sign-up {
+    margin-top: 87px;
+}
